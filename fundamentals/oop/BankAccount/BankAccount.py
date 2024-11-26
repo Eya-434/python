@@ -20,6 +20,6 @@ class BankAccount:
             interest = self.balance*self.int_rate
             self.balance+=interest
             print(f"Balance+ Interest:{self.balance}")
-
+print("hello!")
 account1= BankAccount(0.02, 1000)
 account2= BankAccount(0.03,5000)
