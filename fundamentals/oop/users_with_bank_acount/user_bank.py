@@ -47,7 +47,7 @@ class User:
     def transfert(self , other_user , amount):
         print(f"User : {self.name}" , end="  ,   ")
         self.account.make_withdraw(amount)
-        print(f"User : {self.name}" , end="  ,   ")
+        print(f"User : {other_user.name}" , end="  ,   ")
         other_user.account.make_deposit(amount)
 
 user1 = User("eya", "eya@gmail.com")
